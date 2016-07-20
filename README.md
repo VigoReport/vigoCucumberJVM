@@ -6,9 +6,9 @@ CucumberJVM  middleware for https://vigoreport.io
 ----------------------
 
 >**Prerequisites**
-You need to to have the Java Development Kit (JDK) installed and available.
-You will also need to have Cucumber JVM Report Directory Path.
-You will also need Project Key For the configuration.
+    1. You need to to have the Java Development Kit (JDK) installed and available.
+    2. You will also need to have Cucumber JVM Report Directory Path.
+    3. You will also need Project Key For the configuration.
 
 
 >**NOTE** : Please add this - "json:target/cucumber.json" into your  @cucumberoption
@@ -24,7 +24,7 @@ Eg.  @CucumberOptions(
 
 
 ####STEP-1
->Download the `Vigo-TestNG-xxx.jar` from this repo.
+>Download the `Vigo-CucumberJVM-xxx.jar` from this repo.
 
 ####STEP-2.
 >Generating Config file
@@ -41,7 +41,7 @@ Eg.  @CucumberOptions(
 
 ####STEP-4.
 >Start the VigoBot-CucumberJvm & Enjoy reporting on web.
- `Java -jar Vigo-TestNG-xxx.jar`
+ `Java -jar Vigo-CucumberJVM-xxx.jar`
  
 ####STEP-5
  After VigoBot is started, Execute your automation code to track the result.
