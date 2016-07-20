@@ -5,10 +5,11 @@ CucumberJVM  middleware for https://vigoreport.io
 ### **Integration** with vigoreport.io
 ----------------------
 
->**Prerequisites**
-    1. You need to to have the Java Development Kit (JDK) installed and available.
-    2. You will also need to have Cucumber JVM Report Directory Path.
-    3. You will also need Project Key For the configuration.
+>**PREREQUISITES**
+
+>*  You need to to have the Java Development Kit (JDK) installed and available.
+*   You will also need to have Cucumber JVM Report Directory Path.
+*   You will also need Project Key For the configuration.
 
 
 >**NOTE** : Please add this - "json:target/cucumber.json" into your  @cucumberoption
